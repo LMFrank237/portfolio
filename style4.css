@@ -482,6 +482,10 @@ hr{
 }
 
 @media screen and (max-width: 980px){
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
     .imgLM{
         width: 130%;
     }
