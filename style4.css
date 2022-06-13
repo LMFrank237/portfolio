@@ -516,6 +516,9 @@ hr{
 }
 
 @media screen and (max-width: 740px){
+    .Rect, .Rect2{
+        display: none;
+    }
     .block1{
         flex-direction: column;
         text-align: center;
