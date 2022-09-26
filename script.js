@@ -1,7 +1,3 @@
-document.querySelector(".btn_cv").addEventListener("click", () => {
-    document.querySelector("#download").click()
-});
-
 var j = 0
 var i = 0;
 var txt = 'Hello Everyone';

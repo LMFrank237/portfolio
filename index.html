@@ -7,9 +7,10 @@
     <title>Portfolio Website</title>
 </head>
 <body>
-    <link rel = "stylesheet" href = "style4.css">
+    <link rel = "stylesheet" href = "style5.css">
     <link rel = "stylesheet" type = "text/css" href = "https://fonts.googleapis.com/css?family=Maven+Pro">
     <link rel = "stylesheet" type = "text/css" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <div class="Rect"></div>
     <div class="Circle"></div>
@@ -17,7 +18,28 @@
     <div class="Rect2"></div>
     <div class="Circle2"></div>
     <div class="Square2"></div>
-    <div class="block1">
+
+    
+    <div class="nav">
+        <div class="nav_s">
+            <div class="sub_nav1">
+                <a href="#">Portfolio</a>
+            </div>
+            
+            <div class="sub_nav2">
+                <div>
+                    <a href="#About"><span>About</span></a>
+                    <a href="#Work"><span>Work</span></a>
+                    <a href="#Contact"><span>Contact</span></a>
+                    <a href="https://github.com/LMFrank237" target="_blank"><i class="fa-brands fa-github" style="font-size: 22px;"></i></a>
+                    <a href="https://www.linkedin.com/in/frank-noula" target="_blank"><i class="fa-brands fa-linkedin" style="font-size: 22px;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block1" id="About">
         <div class="div1">
             <div class="div1_1">
                 <p class="p1" id="demo"></p>
@@ -37,8 +59,8 @@
                     online stores & dashboards. I am young, dynamic, eager to learn
                     and gain more experience & detailed oriented.
                 </p> 
-                <span class="btn_cv">Download CV</span>
-                <a href="CV_Tsemo.pdf" download id="download" target="_blank" hidden></a>
+                <!--<span class="btn_cv">Download CV</span>
+                <a href="CV_Tsemo.pdf" download id="download" target="_blank" hidden></a>-->
             </div>
         </div>
         <div class="div2">
@@ -48,7 +70,7 @@
     </div>
 
 
-    <div class="block2"> 
+    <div class="block2" id="Work"> 
         <div class="block2_1">
             <div class="sub_div">
                 <div class="sub_div_span">Supermarket Sales Dashboard</div>
@@ -60,16 +82,23 @@
                     </div>
                 </div>
                 <div class="sub_div_details">
-                    <span><b>Sales Analytics Dashboard</b></span>
+                    <div class="efforts"><b>EFFORTS: 1WEEK</b></div>
+
+                    <span><b>Strategic & Analytics Dashboard</b></span>
                     <hr>
-                    <p>
-                        This is a superstore sales analytics dashboard
-                    </p>
+                    <div>
+                        This is a supermarket sales strategic & analytics dashboard.
+                    </div>
+
+                    <div class="specifications">
+                        <span class="spec">Specifications : </span>
+                        <span>Time Series, Comparisons, Map visualization</span>
+                    </div>
                 </div>
             </div>
             
             <div class="sub_div">
-                <div class="sub_div_span">Specie Visualization Dashboard</div>
+                <div class="sub_div_span">Specie Distribution Dashboard</div>
                 <div class="sub_div_tof">
                     <div class="img">
                         <a href="https://lmfrank.shinyapps.io/winnie/" target="_blank">
@@ -78,11 +107,18 @@
                     </div>
                 </div>
                 <div class="sub_div_details">
-                    <span><b>Species Data Visualization</b></span>
+                    <div class="efforts"><b>EFFORTS: 6DAYS</b></div>
+
+                    <span><b>Analytics Dashboard</b></span>
                     <hr>
-                    <p>
-                        This is a worldwide specie visualization Dashboard.
-                    </p>
+                    <div>
+                        This is a worldwide specie analytics Dashboard.
+                    </div>
+                    
+                    <div class="specifications">
+                        <span class="spec">Specifications : </span>
+                        <span>Map visualization, Image Visualization</span>
+                    </div>
                 </div>
             </div>
             
@@ -96,17 +132,23 @@
                     </div>
                 </div>
                 <div class="sub_div_details">
-                    <span><b>Analytics Dashboard</b></span>
+                    <div class="efforts"><b>EFFORTS: 4DAYS</b></div>
+
+                    <span><b>Strategic & Analytics Dashboard</b></span>
                     <hr>
-                    <p>
-                        This is an analytics dashboard. It includes a theme selector
-                        to change app theme at wish.
-                    </p>
+                    <div>
+                        This is a bank strategic & analytics dashboard. 
+                    </div>
+                    
+                    <div class="specifications">
+                        <span class="spec">Specifications : </span>
+                        <span>Theme Selector, Comparisons</span>
+                    </div>
                 </div>
             </div>
 
             <div class="sub_div">
-                <div class="sub_div_span">Bank Dashboard 2</div>
+                <div class="sub_div_span">Bank Dashboard v2</div>
                 <div class="sub_div_tof">
                     <div class="img">
                         <a href="https://lmfrank.shinyapps.io/LMBankDash/" target="_blank">
@@ -115,17 +157,23 @@
                     </div>
                 </div>
                 <div class="sub_div_details">
-                    <span><b>Analytics Dashboard</b></span>
+                    <div class="efforts"><b>EFFORTS: 3DAYS</b></div>
+
+                    <span><b>Strategic & Analytics Dashboard</b></span>
                     <hr>
-                    <p>
-                        This is an analytics dashboard. It includes a theme selector
-                        to change app theme at wish.
-                    </p>
+                    <div>
+                        This is a bank strategic & analytics dashboard. 
+                    </div>
+
+                    <div class="specifications">
+                        <span class="spec">Specifications : </span>
+                        <span>Theme Selector, Comparisons</span>
+                    </div>
                 </div>
             </div>
             
             <div class="sub_div">
-                <div class="sub_div_span">Data Visualization Dashboard</div>
+                <div class="sub_div_span">Correlation Dashboard</div>
                 <div class="sub_div_tof">
                     <div class="img">
                         <a href="https://lmfrank.shinyapps.io/clientx5/" target="_blank">
@@ -134,18 +182,24 @@
                     </div>
                 </div>
                 <div class="sub_div_details">
+                    <div class="efforts"><b>EFFORTS: 3DAYS</b></div>
+
                     <span><b>Analytics Dashboard</b></span>
                     <hr>
-                    <p>
-                        This is a data analytics dashboard tp visualize the correlations
-                        between variables of the dataset. It includes a translation module
-                        form English to Arab and Arab to English.
-                    </p>
+                    <div>
+                        This is a data analytics dashboard to visualize the correlations
+                        between variables of the dataset.
+                    </div>
+                    
+                    <div class="specifications">
+                        <span class="spec">Specifications : </span>
+                        <span>Language Translation</span>
+                    </div>
                 </div>
             </div>
             
             <div class="sub_div">
-                <div class="sub_div_span">Happinness Dashboard</div>
+                <div class="sub_div_span">Happinness Distribution Dashboard</div>
                 <div class="sub_div_tof">
                     <div class="img">
                         <a href="https://franklm.shinyapps.io/happiness/" target="_blank">
@@ -154,82 +208,86 @@
                     </div>
                 </div>
                 <div class="sub_div_details">
+                    <div class="efforts"><b>EFFORTS: 1DAY</b></div>
+
                     <span><b>Analytics Dashboard</b></span>
                     <hr>
-                    <p>
+                    <div>
                         This is a data analytics dashboard.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     
-    <!--
-        <div class="block4">
-            <div class="title3">
-                <h1><b>Personal Information</b></h1>
-            </div>
-            <div class="title3">
-                <h1><b>Lets Discuss</b></h1>
-            </div>
-        </div>
-    -->
 
-    <div class="block3_mid">
+    <div class="block3_mid" id="Contact">
         <div class="block3">
             <div class="block_3p">
                 <div class="block3_2">
-                    <section>
-                        <section>
-                            <b><h2>Personal Information</h2></b>
-                        </section>
-                        <div>
-                            <img src="./icons/user.png" class="icons"></img>
-                            <p>TSEMO NOULA</p>
-                        </div>
-                        <div>
-                            <img src="./icons/user.png" class="icons"></img>
-                            <p>FRANK </p>
-                        </div>
-                        <div>
-                            <img src="./icons/gender.png" class="icons"></img>
-                            <p>Male</p>
-                        </div>
-                        <div>
-                            <img src="./icons/marital-status.png" class="icons"></img>
-                            <p>Single</p>
-                        </div>
-                    </section>
+                    <div>
+                        <h3>CONTACT</h3>
+                        <b><h1>Got a problem to solve ?</h1></b>
+                        <h5>Get your space suit ready and tell me you need.</h5>
+                        <h4><i class="fa fa-envelope" style="padding-right: 8px;"></i>noulafrankk@gmail.com</h4>
+                    </div>
                 </div>
             </div>
 
             <div class="block_3p_">
                 <div class="block3_2">
-                    <section>
-                        <section>
-                            <b><h2>Let's Discuss</h2></b>
-                        </section>
-                        <div>
-                            <img src="./icons/gmail.png" class="icons"></img>
-                            <p>noulafrankk@gmail.com</p>
-                        </div>
-                        <div>
-                            <img src="./icons/gmail.png" class="icons"></img>
-                            <p>noulafrankk2@gmail.com</p>
-                        </div>
-                        <div>
-                            <img src="./icons/telephone-call.png" class="icons"></img>
-                            <p>+237 693 983 554</p>
-                        </div>
-                        <div>
-                            <img src="./icons/linkedin.png" class="icons"></img>
-                            <a style="text-decoration: none;" href="https://www.linkedin.com/in/frank-tsemo-noula-a98789208/" target="_blank">
-                                <p>Click Me </p>
-                            </a>
-                        </div>
-                    </section>
+                    <form
+                        action="https://formspree.io/f/xqkjqlkl"
+                        method="POST"
+                    >
+                        <label>NAME</label>
+                        <br>
+                        <input type="text" name="name" placeholder="NAME" class="inputs_"/>
+                        <br>
+                        <br>
+                        
+                        <label>EMAIL</label>
+                        <br>
+                        <input type="email" name="email" placeholder="EMAIL" class="inputs_"/>
+                        <br>
+                        <br>
+
+                        <label>MESSAGE</label>
+                        <textarea rows="5" cols="50" name="message" placeholder="MESSAGE" class="inputs_"></textarea>
+                        <br>
+                        <br>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Hit me up <i class="fa fa-paper-plane" style="margin-left: 5px;"></i></button>
+                    </form>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="sub_f_1">
+            <hr>
+            <br>
+            <div class="sub_f_2">
+                <a href="#About"><span>ABOUT</span></a>
+                <a href="#Work"><span>WORK</span></a>
+                <a href="#Contact"><span>CONTACT</span></a>
+            </div>
+            <br>
+            <hr>
+
+            
+            <br>
+            <div class="sub_f_3">
+                <div><span>copyright &copy; 2022 All Rights Reserved</span></div>
+                <div>
+                    <a href="https://github.com/LMFrank237" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/frank-noula" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="f_sp"><span>@LM</span></div>
             </div>
         </div>
     </div>
